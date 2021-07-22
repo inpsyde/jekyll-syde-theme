@@ -55,6 +55,11 @@
   border-left: 0;
   border-radius: 0;
 
+  @include placeholder {
+    font-style: italic;
+    color: $body-text-color;
+  }
+
   @include mq(md) {
     padding-top: $gutter-spacing-sm;
     padding-bottom: $gutter-spacing-sm;
@@ -85,10 +90,10 @@
   }
 
   .search-icon {
-    width: #{$sp-4 * 1.2};
-    height: #{$sp-4 * 1.2};
+    width: 17px;
+    height: 17px;
     align-self: center;
-    color: $grey-dk-000;
+    color: $body-text-color;
   }
 }
 

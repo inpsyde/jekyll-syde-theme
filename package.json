@@ -1,10 +1,10 @@
 {
-  "name": "just-the-docs",
-  "version": "0.3.3",
-  "description": "A modern Jekyll theme for documentation",
-  "repository": "pmarsceill/just-the-docs",
+  "name": "jekyll-inpsyde-theme",
+  "version": "0.0.1",
+  "description": "A modern Jekyll theme for Inpsyde documentation",
+  "repository": "inpsyde/jekyll-inpsyde-theme",
   "license": "MIT",
-  "bugs": "https://github.com/pmarsceill/just-the-docs/issues",
+  "bugs": "https://github.com/inpsyde/jekyll-inpsyde-theme/issues",
   "devDependencies": {
     "stylelint": "^13.7.2",
     "@primer/css": "^15.2.0",

@@ -5,26 +5,24 @@
 
 h1,
 .text-alpha {
-  @include fs-8;
-  font-weight: 300;
+  font-size: $font-size-8;
+  font-weight: 800;
+  color: $green-inpsyde;
 }
 
 h2,
 .text-beta {
-  @include fs-6;
+  font-size: $font-size-6;
 }
 
 h3,
 .text-gamma {
-  @include fs-5;
+  font-size: $font-size-5;
 }
 
 h4,
 .text-delta {
-  @include fs-2;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  font-size: $font-size-2;
 }
 
 h4 code {
@@ -33,18 +31,16 @@ h4 code {
 
 h5,
 .text-epsilon {
-  @include fs-3;
-  color: $grey-dk-200;
+  font-size: $font-size-3;
 }
 
 h6,
 .text-zeta {
-  @include fs-2;
-  color: $grey-dk-200;
+  font-size: $font-size-2;
 }
 
 .text-small {
-  @include fs-2;
+  @include fs-3;
 }
 
 .text-mono {
@@ -61,4 +57,9 @@ h6,
 
 .text-right {
   text-align: right !important;
+}
+
+p {
+  font-size: $font-size-11;
+  font-weight: normal;
 }

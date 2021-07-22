@@ -23,7 +23,10 @@
       min-height: $nav-list-item-height-sm;
       padding-top: $sp-1;
       padding-bottom: $sp-1;
+      font-size: $font-size-2;
+      font-style: italic;
       line-height: #{$nav-list-item-height-sm - 2 * $sp-1};
+
       @if $nav-list-expander-right {
         padding-right: $nav-list-item-height-sm;
         padding-left: $gutter-spacing-sm;
@@ -45,18 +48,13 @@
       }
 
       &.active {
-        font-weight: 600;
         text-decoration: none;
       }
 
       &:hover,
       &.active {
-        background-image: linear-gradient(
-          -90deg,
-          rgba($feedback-color, 1) 0%,
-          rgba($feedback-color, 0.8) 80%,
-          rgba($feedback-color, 0) 100%
-        );
+        color: $blue-jelly-bean;
+        background-color: $feedback-color;
       }
     }
 
