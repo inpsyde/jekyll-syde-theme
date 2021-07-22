@@ -173,20 +173,16 @@ layout: table_wrappers
                 {% comment %}
                   When GitHub Pages supports Jekyll v4:
                     1. Put default in theme's `_config.yml` file
-                    2. Remove `default_gh_edit_link`, `default_gh_edit_link_text`, `default_gh_edit_branch` and `default_gh_edit_view_mode` variables
+                    2. Remove `default_gh_edit_link_text`, `default_gh_edit_branch` and `default_gh_edit_view_mode` variables
                 {% endcomment %}
 
-                {% assign default_gh_edit_link = true %}
                 {% assign default_gh_edit_link_text = "Edit this page on GitHub" %}
                 {% assign default_gh_edit_branch = "main" %}
                 {% assign default_gh_edit_view_mode = "tree" %}
 
                 {% if
-                  site.gh_edit_link | default: default_gh_edit_link and
-                  site.gh_edit_link_text | default: default_gh_edit_link_text and
-                  site.gh_edit_repository and
-                  site.gh_edit_branch | default: default_gh_edit_branch and
-                  site.gh_edit_view_mode | default: default_gh_edit_view_mode
+                  site.gh_edit_link and
+                  site.gh_edit_repository
                 %}
                   <p class="text-small text-grey-dk-000 mb-0">
                     <a href="{{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode | default: default_gh_edit_view_mode }}/{{ site.gh_edit_branch | default: default_gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}" id="edit-this-page">{{ site.gh_edit_link_text | default: default_gh_edit_link_text }}</a>
