@@ -1,3 +1,9 @@
-{%- if site.footer_content -%}
-  <p class="text-small text-grey-dk-100 mb-0">{{ site.footer_content }}</p>
-{%- endif -%}
+{% comment %}
+  When GitHub Pages supports Jekyll v4:
+    1. Put default in theme's `_config.yml` file
+    2. Remove `default_footer_content` variable
+{% endcomment %}
+
+{% assign default_footer_content = "Copyright (c) Inpsyde GmbH. The team at <a href='https://inpsyde.com'>Inpsyde</a> is engineering the Web since 2006." %}
+
+<p class="text-small text-grey-dk-100 mb-0">{{ site.footer_content | default: default_footer_content }}</p>
