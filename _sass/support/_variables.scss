@@ -2,8 +2,7 @@
 // Typography
 //
 
-$body-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-  Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$body-font-family: 'Fira Sans', Roboto, Arial, sans-serif !default;
 $mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace !default;
 $root-font-size: 16px !default; // Base font-size for rems
 $body-line-height: 1.4 !default;
@@ -17,25 +16,26 @@ $body-heading-line-height: 1.25 !default;
 
 $font-size-1: 9px !default;
 $font-size-1-sm: 10px !default;
-$font-size-2: 11px !default; //h4 - uppercased!, h6 not uppercased, text-small
+$font-size-2: 20px !default; //h4 - uppercased!, h6 not uppercased, text-small
 $font-size-3: 12px !default; //h5
 $font-size-4: 14px !default;
-$font-size-5: 16px !default; //h3
-$font-size-6: 18px !default; //h2
+$font-size-5: 24px !default; //h3
+$font-size-6: 30px !default; //h2
 $font-size-7: 24px !default;
-$font-size-8: 32px !default; //h1
+$font-size-8: 54px !default; //h1
 $font-size-9: 36px !default;
 $font-size-10: 42px !default;
 $font-size-10-sm: 48px !default;
-
+$font-size-11: 16px !default;
 //
 // Colors
 //
 
 $white: #fff !default;
+$white-smoke: #f8f8f8 !default;
 
 $grey-dk-000: #959396 !default;
-$grey-dk-100: #5c5962 !default;
+$grey-dk-100: #3c3d46 !default;
 $grey-dk-200: #44434d !default;
 $grey-dk-250: #302d36 !default;
 $grey-dk-300: #27262b !default;
@@ -54,11 +54,13 @@ $blue-000: #2c84fa !default;
 $blue-100: #2869e6 !default;
 $blue-200: #264caf !default;
 $blue-300: #183385 !default;
+$blue-jelly-bean: #38919f !default;
 
 $green-000: #41d693 !default;
 $green-100: #11b584 !default;
 $green-200: #009c7b !default;
 $green-300: #026e57 !default;
+$green-inpsyde: #9FC65D !default;
 
 $yellow-000: #ffeb82 !default;
 $yellow-100: #fadf50 !default;
@@ -71,17 +73,17 @@ $red-200: #e94c4c !default;
 $red-300: #dd2e2e !default;
 
 $body-background-color: $white !default;
-$sidebar-color: $grey-lt-000 !default;
+$sidebar-color: $white-smoke !default;
 $search-background-color: $white !default;
 $table-background-color: $white !default;
 $code-background-color: $grey-lt-000 !default;
-$feedback-color: darken($sidebar-color, 3%) !default;
+$feedback-color: $white !default;
 
 $body-text-color: $grey-dk-100 !default;
 $body-heading-color: $grey-dk-300 !default;
 $search-result-preview-color: $grey-dk-000 !default;
 $nav-child-link-color: $grey-dk-100 !default;
-$link-color: $purple-000 !default;
+$link-color: $body-text-color !default;
 $btn-primary-color: $purple-100 !default;
 $base-button-color: #f7f7f7 !default;
 
