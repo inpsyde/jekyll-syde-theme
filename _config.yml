@@ -14,10 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# TODO
-# title: Just the Docs
-# baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
-# description: A Jekyll theme for documentation
+title: Inpsyde Jekyll Theme
+baseurl: "/jekyll-inpsyde-theme" # the subpath of your site, e.g. /blog
+description: A Jekyll theme for Inpsyde package/plugin documentation
 
 domain: inpsyde.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://inpsyde.github.io  # the base hostname and protocol for your site, e.g. http://example.com
@@ -68,9 +67,9 @@ search:
 heading_anchors: true
 
 # Aux links for the upper right navigation
-# aux_links: # TODO
-#   "Just the Docs on GitHub":
-#     - "//github.com/pmarsceill/just-the-docs"
+ aux_links:
+   "Inpsyde Jekyll Theme on GitHub":
+     - "//github.com/inpsyde/jekyll-inpsyde-theme"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -97,13 +96,10 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
-# gh_edit_repository: "https://github.com/pmarsceill/just-the-docs" # the github URL for your repo # TODO
+gh_edit_repository: "https://github.com/inpsyde/jekyll-inpsyde-theme" # the github URL for your repo
 gh_edit_branch: "master" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
-
-# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: inpsyde
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
