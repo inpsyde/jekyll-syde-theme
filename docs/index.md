@@ -1,9 +1,12 @@
-<p align="center">
-    <h1 align="center">Inpsyde Jekyll Theme</h1>
-    <p align="center"></p>
-</p>
+---
+title: "Home"
+nav_order: 0
+layout: "default"
+---
 
-![jekyll-inpsyde-theme](./jekyll-inpsyde-theme-screenshot.jpg)
+# Inpsyde Jekyll Theme
+
+![jekyll-inpsyde-theme](../jekyll-inpsyde-theme-screenshot.jpg)
 
 ## Installation
 
@@ -32,15 +35,17 @@ bundle add --group=jekyll_plugins --version='>= 0' github-pages
 bundle exec jekyll serve
 ```
 
-Open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+Open your browser at `http://localhost:4000/jekyll-inpsyde-theme/docs/`.
+
+This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
 When the theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
 
 ### Test content
 
-Test content at [`docs/tests`](./docs/tests) are excluded by default. If you wish to use them during development:
+Test content at `docs/tests` are excluded by default. If you wish to use them during development:
 
-1. Comment out this line in [`_config.yml`](./_config.yml):
+First, comment out this line in `_config.yml`:
 
 ```diff
   # _config.yml
@@ -51,13 +56,13 @@ Test content at [`docs/tests`](./docs/tests) are excluded by default. If you wis
 +   # - "docs/tests/"
 ```
 
-2. Restart the Jekyll server, i.e: quit and re-run
+Then, restart the Jekyll server, i.e: quit and re-run
 
 ```bash
 bundle exec jekyll serve
 ```
 
-Test content is avaible at http://localhost:4000/jekyll-inpsyde-theme/docs/tests/index.html
+Test content is avaible at [http://localhost:4000/jekyll-inpsyde-theme/docs/tests/index.html](./tests/)
 
 ## License
 
