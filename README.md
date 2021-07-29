@@ -23,8 +23,11 @@ remote_theme: inpsyde/jekyll-inpsyde-theme
 To set up your environment to develop this theme, run:
 
 ```bash
-rm Gemfile
-rm Gemfile.lock
+git clone https://github.com/inpsyde/jekyll-inpsyde-theme
+cd jekyll-inpsyde-theme
+
+# If they exist
+rm Gemfile Gemfile.lock
 
 bundle init
 bundle add --group=jekyll_plugins --version='>= 0' github-pages
