@@ -48,10 +48,6 @@ exclude:
 # Uncommenting the following line doesn't work - see https://github.com/jekyll/jekyll/issues/4791
 # include: ["docs/tests/"]
 
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/inpsyde-rgb-flat-2.svg"
-favicon: "/assets/images/favicon.png"
-
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
