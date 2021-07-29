@@ -35,7 +35,7 @@ bundle add --group=jekyll_plugins --version='>= 0' github-pages
 bundle exec jekyll serve
 ```
 
-Open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+Open your browser at `http://localhost:4000/docs`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
 When the theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
 
@@ -60,7 +60,7 @@ Test content at [`docs/tests`](./docs/tests) are excluded by default. If you wis
 bundle exec jekyll serve
 ```
 
-Test content is avaible at http://localhost:4000/jekyll-inpsyde-theme/docs/tests/index.html
+Test content is available at http://localhost:4000/jekyll-inpsyde-theme/docs/tests/index.html
 
 ## License
 
