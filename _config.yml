@@ -22,9 +22,25 @@ domain: inpsyde.github.io       # if you want to force HTTPS, specify the domain
 url: https://inpsyde.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 
 permalink: pretty
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
-, "docs/tests/"
-]
+
+exclude:
+  # Comment out the following line for local development
+  - "docs/tests/"
+
+  - "node_modules/"
+  - "*.gemspec"
+  - "*.gem"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "package.json"
+  - "package-lock.json"
+  -  "script/"
+  - "LICENSE.txt"
+  - "lib/"
+  - "bin/"
+  - "README.md"
+  - "Rakefile"
+  - "vendor/"
 
 # Regression tests
 # By default, the pages in /docs/tests are excluded when the ste is built.
@@ -67,9 +83,9 @@ search:
 heading_anchors: true
 
 # Aux links for the upper right navigation
- aux_links:
-   "Inpsyde Jekyll Theme on GitHub":
-     - "//github.com/inpsyde/jekyll-inpsyde-theme"
+aux_links:
+  "Inpsyde Jekyll Theme on GitHub":
+    - "https://github.com/inpsyde/jekyll-inpsyde-theme"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -108,7 +124,8 @@ ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (t
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-feed
+  - jekyll-sitemap
+  - jemoji
 
 kramdown:
   syntax_highlighter_opts:
