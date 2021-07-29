@@ -7,38 +7,20 @@
 
 ## Installation
 
-Add this line to your Jekyll site's Gemfile:
-
-```ruby
-gem "jekyll-inpsyde-theme"
-```
-
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: jekyll-inpsyde-theme
+remote_theme: inpsyde/jekyll-inpsyde-theme
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jekyll-inpsyde-theme
-
-Alternatively, you can run it inside Docker while developing your site
-
-    $ docker-compose up
 
 ### Submitting code changes:
 
 - Open a [Pull Request](https://github.com/inpsyde/jekyll-inpsyde-theme/pulls)
-- Ensure all CI tests pass
 - Await code review
-- Bump the version number in `jekyll-inpsyde-theme.gemspec` and `package.json` according to [semantic versioning](https://semver.org/).
 
 ## Development
+
+TODO!
 
 To set up your environment to develop this theme, run `bundle install`.
 
