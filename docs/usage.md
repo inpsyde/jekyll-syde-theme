@@ -17,9 +17,11 @@ Each markdown file under the `docs` directory is generated as a page on the Jeky
 
 ```
 .
-├── README.md   # => (Homepage) https://inpsyde.github.io/example/
-├── setup.md    # => https://inpsyde.github.io/example/setup/
-└── usage.md    # => https://inpsyde.github.io/example/usage/
+├── docs
+│   ├── README.md   # => (Homepage) https://inpsyde.github.io/<YOUR_REPO_NAME>/
+│   ├── setup.md    # => https://inpsyde.github.io/<YOUR_REPO_NAME>/setup/
+│   └── usage.md    # => https://inpsyde.github.io/<YOUR_REPO_NAME>/usage/
+├── ...
 ```
 
 Here is some example markdown files you can copy and paste into your `docs` directory.
