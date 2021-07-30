@@ -62,6 +62,9 @@ bundle exec jekyll serve
 
 Test content is available at http://localhost:4000/jekyll-inpsyde-theme/docs/tests/index.html
 
+## Credit
+This Jekyll Theme is a fork of the original from <a href="https://pmarsceill.github.io/just-the-docs/" target="_blank">Just the docs</a>
+
 ## License
 
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
