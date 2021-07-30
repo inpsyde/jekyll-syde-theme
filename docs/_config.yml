@@ -34,6 +34,7 @@ remote_theme: inpsyde/jekyll-inpsyde-theme
 # To be replaced by jekyll-inpsyde-theme's `_config.yml` when GitHub Pages supports Jekyll v4.
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
