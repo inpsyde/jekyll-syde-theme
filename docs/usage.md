@@ -86,7 +86,7 @@ Any file that contains a YAML front matter block will be processed by Jekyll as 
 ```yaml
 ---
 # If omitted, first heading (e.g: <h1>, <h2>, etc) will be used.
-title: "Home"
+title: Home
 # To control left navigation sidebar ordering
 nav_order: 0
 # Only use it on README.md to customise the URL.
