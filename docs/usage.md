@@ -32,7 +32,7 @@ Name the homepage markdown file as `README.md` instead of `index.md` so that Git
 
 ```
 ---
-title: "Home"
+title: Home
 nav_order: 0
 permalink: /
 ---
