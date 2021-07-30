@@ -1,7 +1,4 @@
-// When visitors accept the cookie consent
 if (readCookie('cookie-notice-dismissed') == 'true') {
-
-    // GTM
     (function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
@@ -10,5 +7,4 @@ if (readCookie('cookie-notice-dismissed') == 'true') {
         j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-TB9G8NC');
-
 }
