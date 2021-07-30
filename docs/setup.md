@@ -144,7 +144,7 @@ This starts a Jekyll server using your theme. Add pages, documents, data, etc. l
 cd <repo-root>/docs
 
 # If they exist
-rm Gemfile Gemfile.lock
+rm Gemfile Gemfile.lock gems.rb gems.locked
 
 docker run --rm -it \
   --volume "$PWD:/srv/jekyll" \
@@ -161,7 +161,7 @@ Open your browser at `http://localhost:4000/<YOUR_REPO_NAME>`.
 cd <repo-root>/docs
 
 # If they exist
-rm Gemfile Gemfile.lock
+rm Gemfile Gemfile.lock gems.rb gems.locked
 
 bundle init
 bundle add --group=jekyll_plugins --version='>= 0' github-pages

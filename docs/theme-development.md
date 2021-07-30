@@ -27,7 +27,7 @@ When the theme is released, only the files in `_layouts`, `_includes`, `_sass` a
 cd <repo-root>
 
 # If they exist
-rm Gemfile Gemfile.lock
+rm Gemfile Gemfile.lock gems.rb gems.locked
 
 docker run --rm -it \
   --volume "$PWD:/srv/jekyll" \
@@ -44,7 +44,7 @@ Open your browser at `http://localhost:4000/jekyll-inpsyde-theme/`.
 cd <repo-root>
 
 # If they exist
-rm Gemfile Gemfile.lock
+rm Gemfile Gemfile.lock gems.rb gems.locked
 
 bundle init
 bundle add --group=jekyll_plugins --version='>= 0' github-pages
