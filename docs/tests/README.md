@@ -3,6 +3,7 @@ layout: default
 title: Tests
 has_children: true
 nav_order: 100
+permalink: /tests/
 ---
 
 # Tests

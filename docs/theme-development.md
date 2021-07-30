@@ -1,7 +1,7 @@
 ---
-nav_order: 1
+nav_order: 2
 ---
-# Local Development
+# Theme Development
 {: .no_toc }
 ## Table of contents
 {: .no_toc .text-delta }
@@ -36,7 +36,7 @@ docker run --rm -it \
   jekyll serve -c docs/_config.yml,_config.yml
 ```
 
-Open your browser at `http://localhost:4000/jekyll-inpsyde-theme/docs/`.
+Open your browser at `http://localhost:4000/jekyll-inpsyde-theme/`.
 
 ### Ruby
 
@@ -52,7 +52,7 @@ bundle add --group=jekyll_plugins --version='>= 0' github-pages
 bundle exec jekyll serve -c docs/_config.yml,_config.yml
 ```
 
-Open your browser at `http://localhost:4000/jekyll-inpsyde-theme/docs/`.
+Open your browser at `http://localhost:4000/jekyll-inpsyde-theme/`.
 
 ## Test Content
 
@@ -71,7 +71,7 @@ First, comment out this line in [`_config.yml`](https://github.com/inpsyde/jekyl
 
 Then, restart the Jekyll server.
 
-Test content is avaible at [http://localhost:4000/jekyll-inpsyde-theme/docs/tests/index.html](./tests/)
+Test content is avaible at [http://localhost:4000/jekyll-inpsyde-theme/tests/]({{ site.baseurl }}/tests/)
 
 ## `_config.yml` vs `docs/_config.yml`
 
@@ -80,6 +80,8 @@ Test content is avaible at [http://localhost:4000/jekyll-inpsyde-theme/docs/test
 [`_config.yml`](https://github.com/inpsyde/jekyll-inpsyde-theme/blob/master/_config.yml) at repo root is for generating http://localhost:4000/jekyll-inpsyde-theme/docs for local development.
 
 Whenever duplicated, [`_config.yml`](https://github.com/inpsyde/jekyll-inpsyde-theme/blob/master/_config.yml) at repo root takes priority.
+
+Similarly, the local site might contains `/docs/` in the URLs. This is because Jekyll translates the file paths into permalinks. The `/docs/` part will be stripped away on `https://inpsyde.github.io/jekyll-inpsyde-theme`.
 
 ## Tips
 
@@ -98,6 +100,7 @@ Run `jekyll serve --help` for information about option flags. Notably:
 | `--incremental` | Enable incremental rebuild                        |
 | `--port`        | Port to listen on                                 |
 | `--livereload`  | Use LiveReload to automatically refresh browsers  |
+| `--open-url`    | Launch your site in a browser                     |
 
 ### GitHub Pages Dependencies
 

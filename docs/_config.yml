@@ -3,7 +3,7 @@
 
 title: Inpsyde Jekyll Theme
 description: A Jekyll theme for Inpsyde package/plugin documentation
-baseurl: /jekyll-inpsyde-theme # the subpath of your site, e.g. /blog
+baseurl: /jekyll-inpsyde-theme # Your repo name with a leading slash.
 
 # Aux links for the upper right navigation
 aux_links:
@@ -11,7 +11,7 @@ aux_links:
     - https://github.com/inpsyde/jekyll-inpsyde-theme
 
 # Footer "Edit this page on GitHub" link text
-gh_edit_repository: https://github.com/inpsyde/jekyll-inpsyde-theme # the GitHub URL for the repo
+gh_edit_repository: https://github.com/inpsyde/jekyll-inpsyde-theme # Your repo GitHub URL
 
 # Everything above is repo specific.
 
@@ -19,9 +19,8 @@ gh_edit_repository: https://github.com/inpsyde/jekyll-inpsyde-theme # the GitHub
 
 # This section is repo specific. These can be omitted if defaults make sense.
 
-# TODO: Change to `master` when merging
-gh_edit_branch: master # the default branch of the repo. Default: main
-gh_edit_source: docs # the directory containing the docs. Default: docs
+gh_edit_branch: master # The default branch of the repo. Default: main
+gh_edit_source: docs # The directory containing the docs. Default: docs
 
 ###############################################################
 
@@ -40,4 +39,3 @@ plugins:
   - jemoji
 
 permalink: pretty
-theme: jekyll-theme-cayman
