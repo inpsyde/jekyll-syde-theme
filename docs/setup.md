@@ -40,6 +40,8 @@ vendor
 
 Gemfile
 Gemfile.lock
+gems.rb
+gems.locked
 ```
 
 ### _config.yml

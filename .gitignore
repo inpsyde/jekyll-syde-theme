@@ -7,5 +7,7 @@
 _site
 Gemfile
 Gemfile.lock
+gems.rb
+gems.locked
 node_modules
 .idea
