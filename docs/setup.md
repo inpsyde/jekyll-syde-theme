@@ -152,7 +152,7 @@ Open your browser at `http://localhost:4000/<YOUR_REPO_NAME>`.
 ### Ruby
 
 ```bash
-cd <repo-root>
+cd <repo-root>/docs
 
 # If they exist
 rm Gemfile Gemfile.lock
