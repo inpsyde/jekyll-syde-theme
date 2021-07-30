@@ -1,17 +1,17 @@
-# This file is for jekyll-inpsyde-theme's GitHub Pages.
-# For local development, use the _config.yml file at repo root.
+# This file is for generating inpsyde.github.io/jekyll-inpsyde-theme on GitHub Pages.
+# For local development, use `_config.yml` at repo root.
 
 title: Inpsyde Jekyll Theme
 description: A Jekyll theme for Inpsyde package/plugin documentation
-baseurl: "/jekyll-inpsyde-theme" # the subpath of your site, e.g. /blog
+baseurl: /jekyll-inpsyde-theme # the subpath of your site, e.g. /blog
 
 # Aux links for the upper right navigation
 aux_links:
   "Inpsyde Jekyll Theme on GitHub":
-    - "https://github.com/inpsyde/jekyll-inpsyde-theme"
+    - https://github.com/inpsyde/jekyll-inpsyde-theme
 
 # Footer "Edit this page on GitHub" link text
-gh_edit_repository: https://github.com/inpsyde/assets # the GitHub URL for the repo
+gh_edit_repository: https://github.com/inpsyde/jekyll-inpsyde-theme # the GitHub URL for the repo
 
 # Everything above is repo specific.
 
@@ -27,8 +27,7 @@ gh_edit_source: docs # the directory containing the docs. Default: docs
 
 # Everything below should be copy and pasted into package repos
 
-## TODO: Change to inpsyde/jekyll-inpsyde-theme
-remote_theme: pmarsceill/just-the-docs
+remote_theme: inpsyde/jekyll-inpsyde-theme
 
 ###############################################################
 
