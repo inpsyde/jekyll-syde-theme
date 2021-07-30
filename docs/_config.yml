@@ -22,6 +22,9 @@ gh_edit_repository: https://github.com/inpsyde/jekyll-inpsyde-theme # Your repo 
 gh_edit_branch: master # The default branch of the repo. Default: main
 gh_edit_source: docs # The directory containing the docs. Default: docs
 
+exclude:
+  - "tests/" # This is jekyll-inpsyde-theme specific!
+
 ###############################################################
 
 # Everything below should be copy and pasted into package repos
