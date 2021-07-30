@@ -32,7 +32,7 @@ Name the homepage markdown file as `README.md` instead of `index.md` so that Git
 
 `permalink: /` is to tell Jekyll generates this file as `index.html`.
 
-```
+```md
 ---
 title: Home
 nav_order: 0
