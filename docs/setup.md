@@ -92,7 +92,7 @@ Adjust page content with content make sense to your project.
 
 ````md
 ---
-title: "Home"
+title: Home
 nav_order: 0
 permalink: /
 ---
