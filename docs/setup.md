@@ -37,6 +37,9 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+Gemfile
+Gemfile.lock
 ```
 
 ### _config.yml
