@@ -6,7 +6,7 @@ permalink: /
 
 # Inpsyde Jekyll Theme
 
-![jekyll-inpsyde-theme](../jekyll-inpsyde-theme-screenshot.jpg)
+![jekyll-inpsyde-theme](./assets/images/jekyll-inpsyde-theme-screenshot.jpg)
 
 ## Credit
 This Jekyll Theme is a fork of the original from <a href="https://pmarsceill.github.io/just-the-docs/" target="_blank">Just the docs</a>

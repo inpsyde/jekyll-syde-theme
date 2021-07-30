@@ -3,7 +3,7 @@
     <p align="center"></p>
 </p>
 
-![jekyll-inpsyde-theme](./jekyll-inpsyde-theme-screenshot.jpg)
+![jekyll-inpsyde-theme](./docs/assets/images/jekyll-inpsyde-theme-screenshot.jpg)
 
 ## Documentation
 
