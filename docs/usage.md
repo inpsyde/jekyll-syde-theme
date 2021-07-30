@@ -26,7 +26,7 @@ Here is some example markdown files you can copy and paste into your `docs` dire
 
 ### Homepage (README.md)
 
-Name the homepage markdown file as `README.md` instead of `index.md` so that GitHub would render them at `https://github.com/inpsyde/<YOUR_REPO_NAME>`.
+Name the homepage markdown file as `README.md` instead of `index.md` so that GitHub would render them at `https://github.com/inpsyde/<YOUR_REPO_NAME>/tree/main/docs`.
 
 `permalink: /` is to tell Jekyll generates this file as `index.html`.
 
