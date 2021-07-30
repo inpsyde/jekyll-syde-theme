@@ -10,10 +10,7 @@
     {% endif %}
   {% endunless %}
 
-  {% if site.favicon != nil %}
-    <link rel="shortcut icon" href="{{ site.favicon | absolute_url }}">
-  {% endif %}
-
+  <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' | relative_url }}" type="image/x-icon">
   <link rel="stylesheet" href="{{ '/assets/css/jekyll-inpsyde-theme.css' | relative_url }}">
 
   {% if site.ga_tracking != nil %}
