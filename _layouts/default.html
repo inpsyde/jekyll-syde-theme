@@ -70,7 +70,8 @@ layout: table_wrappers
       {% endif %}
     </nav>
     <footer class="site-footer">
-      This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+      Copyright (c) Inpsyde GmbH.<br/>We are <a href="http://inpsyde.com/jobs/?utm_medium=cta&utm_source=docspage&utm_campaign=jobs-docs">hiring</a>!<br/>
+      <a href="https://inpsyde.com/en/privacy-policy/?utm_medium=cta&utm_source=docspage&utm_campaign=jobs-docs" rel="nofollow">Privacy Policy</a> | <a href="https://inpsyde.com/en/imprint/?utm_medium=cta&utm_source=docspage&utm_campaign=jobs-docs" rel="nofollow">Imprint</a>
     </footer>
   </div>
   <div class="main" id="top">
@@ -154,17 +155,12 @@ layout: table_wrappers
           </ul>
         {% endif %}
 
-        {% capture footer_custom %}
-          {%- include footer_custom.html -%}
-        {% endcapture %}
-        {% if footer_custom != "" or site.last_edit_timestamp or site.gh_edit_repository %}
+        {% if site.last_edit_timestamp or site.gh_edit_repository %}
           <hr>
           <footer>
             {% if site.back_to_top %}
               <p><a href="#top" id="back-to-top">{{ site.back_to_top_text }}</a></p>
             {% endif %}
-
-            {{ footer_custom }}
 
             {% if site.last_edit_timestamp or site.gh_edit_repository %}
               <div class="d-flex mt-2">
