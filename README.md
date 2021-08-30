@@ -5,12 +5,17 @@
 
 ![jekyll-inpsyde-theme](./docs/assets/images/jekyll-inpsyde-theme-screenshot.jpg)
 
+## Introduction
+
+This Jekyll Theme is used to provide layouts and styles for the documentation of Inpsyde's open source solutions on GitHub Pages.
+
 ## Documentation
 
-Please reder to [/docs](./docs) or https://inpsyde.github.io/jekyll-inpsyde-theme for information.
+For more imformation, please refer to the [/docs](./docs) or go to https://inpsyde.github.io/jekyll-inpsyde-theme to see the theme in action _on its own documentation_. Very meta, we know.
 
 ## Credit
-This Jekyll Theme is a fork of the original from <a href="https://pmarsceill.github.io/just-the-docs/" target="_blank">Just the docs</a>
+
+This is a fork of the wonderful <a href="https://pmarsceill.github.io/just-the-docs/" target="_blank">Just the docs</a> theme.
 
 ## License
 
