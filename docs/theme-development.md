@@ -12,7 +12,7 @@ nav_order: 2
 ## Clone the Git Repository
 
 ```bash
-git clone https://github.com/inpsyde/jekyll-inpsyde-theme
+git clone https://github.com/inpsyde/jekyll-syde-theme
 ```
 
 ## Serve the Jekyll Site Locally
@@ -36,7 +36,7 @@ docker run --rm -it \
   jekyll serve -c docs/_config.yml,_config.yml
 ```
 
-Open your browser at `http://localhost:4000/jekyll-inpsyde-theme/`.
+Open your browser at `http://localhost:4000/jekyll-syde-theme/`.
 
 ### Ruby
 
@@ -52,13 +52,13 @@ bundle add --group=jekyll_plugins --version='>= 0' github-pages
 bundle exec jekyll serve -c docs/_config.yml,_config.yml
 ```
 
-Open your browser at `http://localhost:4000/jekyll-inpsyde-theme/`.
+Open your browser at `http://localhost:4000/jekyll-syde-theme/`.
 
 ## Test Content
 
-Test content at [`docs/tests`](https://github.com/inpsyde/jekyll-inpsyde-theme/tree/master/docs/tests) are excluded by default. If you wish to use them during development:
+Test content at [`docs/tests`](https://github.com/inpsyde/jekyll-syde-theme/tree/master/docs/tests) are excluded by default. If you wish to use them during development:
 
-First, comment out this line in [`_config.yml`](https://github.com/inpsyde/jekyll-inpsyde-theme/blob/master/_config.yml) at repo root:
+First, comment out this line in [`_config.yml`](https://github.com/inpsyde/jekyll-syde-theme/blob/master/_config.yml) at repo root:
 
 ```diff
   # _config.yml
@@ -71,17 +71,17 @@ First, comment out this line in [`_config.yml`](https://github.com/inpsyde/jekyl
 
 Then, restart the Jekyll server.
 
-Test content is avaible at [http://localhost:4000/jekyll-inpsyde-theme/tests/]({{ site.baseurl }}/tests/)
+Test content is avaible at [http://localhost:4000/jekyll-syde-theme/tests/]({{ site.baseurl }}/tests/)
 
 ## `_config.yml` vs `docs/_config.yml`
 
-[`docs/_config.yml`](https://github.com/inpsyde/jekyll-inpsyde-theme/blob/master/docs/_config.yml) is for generating https://inpsyde.github.io/jekyll-inpsyde-theme on GitHub Pages.
+[`docs/_config.yml`](https://github.com/inpsyde/jekyll-syde-theme/blob/master/docs/_config.yml) is for generating https://inpsyde.github.io/jekyll-inpsyde-theme on GitHub Pages.
 
-[`_config.yml`](https://github.com/inpsyde/jekyll-inpsyde-theme/blob/master/_config.yml) at repo root is for generating http://localhost:4000/jekyll-inpsyde-theme/docs for local development.
+[`_config.yml`](https://github.com/inpsyde/jekyll-syde-theme/blob/master/_config.yml) at repo root is for generating http://localhost:4000/jekyll-inpsyde-theme/docs for local development.
 
-Whenever duplicated, [`_config.yml`](https://github.com/inpsyde/jekyll-inpsyde-theme/blob/master/_config.yml) at repo root takes priority.
+Whenever duplicated, [`_config.yml`](https://github.com/inpsyde/jekyll-syde-theme/blob/master/_config.yml) at repo root takes priority.
 
-Similarly, the local site might contains `/docs/` in the URLs. This is because Jekyll translates the file paths into permalinks. The `/docs/` part will be stripped away on `https://inpsyde.github.io/jekyll-inpsyde-theme`.
+Similarly, the local site might contains `/docs/` in the URLs. This is because Jekyll translates the file paths into permalinks. The `/docs/` part will be stripped away on `https://inpsyde.github.io/jekyll-syde-theme`.
 
 ## Tips
 

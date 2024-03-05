@@ -1,7 +1,7 @@
 package.json
 package-lock.json
 _site
-assets/css/jekyll-inpsyde-theme.scss
+assets/css/jekyll-syde-theme.scss
 assets/js/vendor/lunr.min.js
 assets/js/search-data.json
-assets/js/jekyll-inpsyde-theme.js
+assets/js/jekyll-syde-theme.js

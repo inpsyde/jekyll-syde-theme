@@ -4,9 +4,9 @@ nav_order: 0
 permalink: /
 ---
 
-# Inpsyde Jekyll Theme
+# Syde Jekyll Theme
 
-![jekyll-inpsyde-theme](./assets/images/jekyll-inpsyde-theme-screenshot.jpg)
+![jekyll-syde-theme](./assets/images/jekyll-theme-screenshot.jpg)
 
 ## Credit
 This Jekyll Theme is a fork of the original from <a href="https://pmarsceill.github.io/just-the-docs/" target="_blank">Just the docs</a>

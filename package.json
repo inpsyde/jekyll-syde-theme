@@ -1,10 +1,10 @@
 {
-  "name": "jekyll-inpsyde-theme",
+  "name": "jekyll-syde-theme",
   "version": "0.0.1",
-  "description": "A modern Jekyll theme for Inpsyde documentation",
-  "repository": "inpsyde/jekyll-inpsyde-theme",
+  "description": "A modern Jekyll theme for Syde documentation",
+  "repository": "inpsyde/jekyll-syde-theme",
   "license": "MIT",
-  "bugs": "https://github.com/inpsyde/jekyll-inpsyde-theme/issues",
+  "bugs": "https://github.com/inpsyde/jekyll-syde-theme/issues",
   "devDependencies": {
     "stylelint": "^13.7.2",
     "@primer/css": "^15.2.0",

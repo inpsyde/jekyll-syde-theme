@@ -1,17 +1,17 @@
-# This file is for generating inpsyde.github.io/jekyll-inpsyde-theme on GitHub Pages.
+# This file is for generating inpsyde.github.io/jekyll-syde-theme on GitHub Pages.
 # For local development, use `_config.yml` at repo root.
 
-title: Inpsyde Jekyll Theme
-description: A Jekyll theme for Inpsyde package/plugin documentation
-baseurl: /jekyll-inpsyde-theme # Your repo name with a leading slash.
+title: Syde Jekyll Theme
+description: A Jekyll theme for Syde package/plugin documentation
+baseurl: /jekyll-syde-theme # Your repo name with a leading slash.
 
 # Aux links for the upper right navigation
 aux_links:
-  "Inpsyde Jekyll Theme on GitHub":
-    - https://github.com/inpsyde/jekyll-inpsyde-theme
+  "Syde Jekyll Theme on GitHub":
+    - https://github.com/inpsyde/jekyll-syde-theme
 
 # Footer "Edit this page on GitHub" link text
-gh_edit_repository: https://github.com/inpsyde/jekyll-inpsyde-theme # Your repo GitHub URL
+gh_edit_repository: https://github.com/inpsyde/jekyll-syde-theme # Your repo GitHub URL
 
 # Everything above is repo specific.
 
@@ -23,18 +23,18 @@ gh_edit_branch: master # The default branch of the repo. Default: main
 gh_edit_source: docs # The directory containing the docs. Default: docs
 
 exclude:
-  - "tests/" # This is jekyll-inpsyde-theme specific!
+  - "tests/" # This is jekyll-syde-theme specific!
 
 ###############################################################
 
 # Everything below should be copy and pasted into package repos
 
-remote_theme: inpsyde/jekyll-inpsyde-theme
+remote_theme: inpsyde/jekyll-syde-theme
 
 ###############################################################
 
 # Everything below should be copy and pasted into package repos
-# To be replaced by jekyll-inpsyde-theme's `_config.yml` when GitHub Pages supports Jekyll v4.
+# To be replaced by jekyll-syde-theme's `_config.yml` when GitHub Pages supports Jekyll v4.
 
 plugins:
   - jekyll-remote-theme
