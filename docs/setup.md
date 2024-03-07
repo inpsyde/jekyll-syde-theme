@@ -74,12 +74,12 @@ gh_edit_source: docs # The directory containing the docs. Default: docs
 
 # Everything below should be copy and pasted into package repos
 
-remote_theme: inpsyde/jekyll-inpsyde-theme
+remote_theme: inpsyde/jekyll-syde-theme
 
 ###############################################################
 
 # Everything below should be copy and pasted into package repos
-# To be replaced by jekyll-inpsyde-theme's `_config.yml` when GitHub Pages supports Jekyll v4.
+# To be replaced by jekyll-syde-theme's `_config.yml` when GitHub Pages supports Jekyll v4.
 
 plugins:
   - jekyll-remote-theme
@@ -114,10 +114,6 @@ The best way to use this package is:
 ```bash
 composer require inpsyde/<YOUR_REPO_NAME>
 ```
-
-## Crafted by Inpsyde
-
-The team at [Inpsyde](https://inpsyde.com) is engineering the Web since 2006.
 
 ## License
 
@@ -211,7 +207,7 @@ The Jekyll site will be avaible at `https://inpsyde.github.io/<YOUR_REPO_NAME>` 
 
 - The person who pushed the changes must have their email addresses verified on GitHub. For more information, see [Verifying your email address](https://docs.github.com/en/get-started/signing-up-for-github/verifying-your-email-address)
 - If GitHub reports any Jekyll build error messages, [build your site locally](#serve-the-jekyll-site-locally) to see any misconfiguration
-- Ask on the `#p-jekyll-inpsyde-theme` Slack channel if you need further help
+- Ask on the `#p-jekyll-syde-theme` Slack channel if you need further help
 
 #### Purging GitHub Pages Cache
 
