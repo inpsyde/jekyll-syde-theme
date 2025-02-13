@@ -115,11 +115,9 @@ The best way to use this package is:
 composer require inpsyde/<YOUR_REPO_NAME>
 ```
 
-## License
+## Copyright and License
 
-Copyright (c) 2021, Inpsyde GmbH
-
-This software is released under the [<YOUR_REPO_LICENSE>](<YOUR_REPO_LICENSE_URL>) license.
+This package is [free software](https://www.gnu.org/philosophy/free-sw.en.html) distributed under the terms of the GNU General Public License version 2 or (at your option) any later version. For the full license, see [LICENSE](./LICENSE).
 
 ## Contributing
 
